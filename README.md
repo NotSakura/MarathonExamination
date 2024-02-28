@@ -1,15 +1,24 @@
-# Live Demo For Class
+# Starter folder
 
+## Overview
 
-## LLM Usage: 
-was not used
+This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+
+To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
+
 
 ## File Structure
 
 The repo is structured as:
 
--   `LiveDemo.qmd` the master/source code
--   `LiveDemo.pdf` the pdf version of our paper
+-   `data/raw_data` contains the raw data as obtained from X.
+-   `data/analysis_data` contains the cleaned dataset that was constructed.
+-   `model` contains fitted models. 
+-   `other` contains relevant literature, details about LLM chat interactions, and sketches.
+-   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
+-   `scripts` contains the R scripts used to simulate, download and clean data.
 
-## Accessing data sets
- must download all the data sets from https://www.openicpsr.org/openicpsr/project/193523/version/V1/view?path=/openicpsr/193523/fcr:versions/V1/Raw&type=folder and save it in the inputs/data folder
+
+## Statement on LLM usage
+
+Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
